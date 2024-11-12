@@ -5,4 +5,3 @@ def str_to_float(string):
         return float(string)
     except ValueError:
         return None
-print(str_to_float('4'))
